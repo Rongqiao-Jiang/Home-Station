@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <TextView
+         android:gravity="center"
+         android:text="@string/message" />
+    </TableRow>
+    
+    <TableRow>
+        <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </ListView>
+    </TableRow>
+
+
+    <TableRow>
+         <Button 
+            android:id="@+id/b1"
+            android:text="@string/top"
+            android:layout_weight="1"
+            android:background="@drawable/top" />
+         
+         <Button  
+            android:id="@+id/b2"
+            android:text="@string/found"
+            android:layout_weight="1.5"
+            android:background="@drawable/found" />
+
+         <Button
+            android:id="@+id/b3"
+            android:gravity="center"
+            android:text="@string/share"
+            android:layout_weight="1.5"
+            android:background="@drawable/share" />
+
+         <Button
+            android:id="@+id/b4"
+            android:text="@string/message"
+            android:layout_weight="1"
+            android:background="@drawable/message" />
+
+         <Button
+            android:id="@+id/b5"
+            android:text="@string/myself"
+            android:layout_weight="1"
+            android:background="@drawable/myself"/>
+  
+    </TableRow>
+
+
+  
+</TableLayout>

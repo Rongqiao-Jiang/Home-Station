@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jiang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TopActivity"></activity>
+        <activity android:name=".FoundActivity"></activity>
+        <activity android:name=".ShareActivity"></activity>
+        <activity android:name=".MessageActivity"></activity> 
+        <activity android:name=".MyselfActivity"></activity>
+        <activity android:name=".SignActivity"></activity>
+        <activity android:name=".Person"></activity>
+        <activity android:name=".PersonAdapter"></activity>
+        <activity android:name=".Msgmain"></activity>
+        <activity android:name=".room1"></activity>
+        <activity android:name=".room2"></activity>
+        <activity android:name=".room3"></activity>
+        <activity android:name=".room4"></activity>
+        <activity android:name=".room5"></activity>
+        <activity android:name=".room6"></activity>
+        <activity android:name=".room7"></activity>
+        
+        
+    </application>
+
+</manifest>

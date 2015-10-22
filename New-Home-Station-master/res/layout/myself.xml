@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/my"
+            android:gravity="center"/>
+        </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/myselfbutton1"
+            android:text="@string/image"/>
+        <TextView
+            android:text="@string/word"
+            android:padding="3dip"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/myselfbutton2"
+            android:text="@string/mycollect"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+   <TableRow>
+        <Button
+            android:id="@+id/myselfbutton3"
+            android:text="@string/mycare"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/myselfbutton4"
+            android:text="@string/set"/>
+    </TableRow>
+    <View 
+        android:layout_height="160dip"
+        android:background="#FFFFFF"/>
+    <TableRow>
+         <Button 
+            android:id="@+id/b1"
+            android:text="@string/top"
+            android:layout_width="42dp"
+            android:layout_height="68dp"
+            android:background="@drawable/top" />
+         
+         <Button  
+            android:id="@+id/b2"
+            android:text="@string/found"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:background="@drawable/found" />
+
+         <Button
+            android:id="@+id/b3"
+            android:gravity="center"
+            android:text="@string/share"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:background="@drawable/share" />
+
+         <Button
+            android:id="@+id/b4"
+            android:text="@string/message"
+            android:layout_width="52dp"
+            android:layout_height="68dp"
+            android:background="@drawable/message" />
+
+         <Button
+            android:id="@+id/b5"
+            android:text="@string/myself"
+            android:layout_width="42dp"
+            android:layout_height="68dp"
+            android:background="@drawable/myself"/>
+  
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    
+
+</TableLayout>

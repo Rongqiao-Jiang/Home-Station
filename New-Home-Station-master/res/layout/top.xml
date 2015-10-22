@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow >
+        <TextView
+            
+            android:gravity="center"
+            android:text="@string/top" 
+            />
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton1"
+            android:layout_weight="1"
+            android:background="@drawable/room1"/>
+        <TextView
+            android:text="@string/addroom1"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton2"
+            android:layout_weight="1"
+            android:background="@drawable/room2"/>
+        <TextView
+            android:text="@string/addroom2"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton3"
+            android:layout_weight="1"
+            android:background="@drawable/room3"/>
+        <TextView
+            android:text="@string/addroom3"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton4"
+            android:layout_weight="1"
+            android:background="@drawable/room4"/>
+        <TextView
+            android:text="@string/addroom4"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton5"
+            android:layout_weight="1"
+            android:background="@drawable/room5"/>
+        <TextView
+            android:text="@string/addroom5"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton6"
+            android:layout_weight="1"
+            android:background="@drawable/room6"/>
+        <TextView
+            android:text="@string/addroom6"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+  
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+        <Button
+            android:id="@+id/topbutton7"
+            android:layout_weight="1"
+            android:background="@drawable/room7"/>
+        <TextView
+            android:text="@string/addroom7"
+            android:padding="3dip"
+            android:layout_weight="1"/>
+    </TableRow>
+  
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+    <TableRow>
+         <Button 
+            android:id="@+id/b1"
+            android:text="@string/top"
+           
+            android:background="@drawable/top" 
+            android:layout_weight="1"/>
+
+         <Button
+             android:id="@+id/b2"
+             
+             android:background="@drawable/found"
+             android:text="@string/found" 
+             android:layout_weight="4"/>
+
+         <Button
+             android:id="@+id/b3"
+         
+             android:background="@drawable/share"
+             android:gravity="center"
+             android:text="@string/share"
+             android:layout_weight="2" />
+
+         <Button
+            android:id="@+id/b4"
+            android:text="@string/message"
+
+            android:background="@drawable/message" 
+            android:layout_weight="1"/>
+
+         <Button
+            android:id="@+id/b5"
+            android:text="@string/myself"
+
+            android:background="@drawable/myself"
+            android:layout_weight="1"/>
+  
+    </TableRow>
+    <View 
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+</TableLayout>
